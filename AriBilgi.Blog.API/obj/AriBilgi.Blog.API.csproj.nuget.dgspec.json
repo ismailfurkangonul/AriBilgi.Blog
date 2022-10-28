@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.API\\AriBilgi.Blog.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.API\\AriBilgi.Blog.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.API\\AriBilgi.Blog.API.csproj",
+        "projectName": "AriBilgi.Blog.API",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.API\\AriBilgi.Blog.API.csproj",
+        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\AriBilgi.Blog.Service.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\AriBilgi.Blog.Service.csproj"
+              },
+              "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\AriBilgi.Blog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\AriBilgi.Blog.Data.csproj",
+        "projectName": "AriBilgi.Blog.Data",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\AriBilgi.Blog.Data.csproj",
+        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\AriBilgi.Blog.Entities.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\AriBilgi.Blog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\AriBilgi.Blog.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\AriBilgi.Blog.Entities.csproj",
+        "projectName": "AriBilgi.Blog.Entities",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\AriBilgi.Blog.Entities.csproj",
+        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\AriBilgi.Blog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\AriBilgi.Blog.Service.csproj",
+        "projectName": "AriBilgi.Blog.Service",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\AriBilgi.Blog.Service.csproj",
+        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\AriBilgi.Blog.Data.csproj": {
+                "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Data\\AriBilgi.Blog.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj",
+        "projectName": "AriBilgi.Blog.Shared",
+        "projectPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\AriBilgi.Blog.Shared.csproj",
+        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CASPER\\Desktop\\AriBilgi.BlogOglen-master\\AriBilgi.Blog.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
